@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    console.log("krishna");
+    function bodyloaded() {
+      document.getElementById("pic").src = "https://dev.rubicontutors.com/html/assets/images/banner-img.png"
+      document.getElementById("btnRegister").value = "Register"
+      document.getElementById("btnLogin").value = "Login"
+    }
+  </script>
+
+</head>
+
+<body onload="bodyloaded()">
+  <div>
+    <img width="100" id="pic" height="100" border="1">
+  </div>
+  <div>
+    <form name="frmRegister">
+      <h2>Register</h2>
+
+      <input type="email">
+      <input id="btnRegister" type="button">
+
+    </form>
+  </div>
+  <div>
+    <form>
+      <h2>Login</h2>
+      <input type="text">
+      <input id="btnLogin" type="button">
+    </form>
+  </div>
+</body>
+
+</html>

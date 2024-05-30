@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function bodyloading() {
+
+      pic.src = "https://dev.rubicontutors.com/html/assets/images/banner-img.png"
+      frmregister.frmbtn.value = "Registration"
+      frmlogin.btnlogin.value = "Login"
+    }
+
+  </script>
+
+</head>
+
+<body onload="bodyloading()">
+  <div>
+    <img name="pic" width="100" height="100" border="1">
+  </div>
+  <div>
+    <form name="frmregister">
+      <h2>Register</h2>
+      <input type="email">
+      <input name="frmbtn" type="button">
+    </form>
+  </div>
+  <div>
+    <form name="frmlogin" >
+      <h2>Login</h2>
+      <input type="text">
+      <input name="btnlogin" type="button">
+    </form>
+  </div>
+</body>
+
+</html>
